@@ -1,0 +1,56 @@
+/* --------------------------- */
+/* Navbar.js */
+.navbar {
+  background: linear-gradient(to right, #83362f 0%, #473735 100%);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* --------------------------- */
+/* App.js */
+.main_div {
+  background: #f3dcba;
+  min-height: 100vh;
+}
+
+.paper_container {
+  position: relative;
+  padding: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.old_paper {
+  width: 80vw;
+  /* height: 50vh; */
+}
+
+.bhagawadGita {
+  position: absolute;
+  width: 15%;
+  left: calc(50%-110px);
+  top: 20%;
+}
+
+.main_div p {
+  position: absolute;
+  bottom: 25%;
+  color: #a24837;
+  width: 65vw;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  bottom: 5%;
+  background: #84362f;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+}
