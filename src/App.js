@@ -5,8 +5,8 @@ import bhagawadGita from "./assets/bhagawadGita.png";
 import "./App.css";
 import axios from "axios";
 
-function App() {
-  const [quote, setQuote] = useState("Get a Random Quote HERE");
+const App = () => {
+  const [quote, setQuote] = useState("Click on GENERATE RANDOM QUOTE button to get a quote");
 
   const handleClick = async () => {
     await axios
@@ -22,7 +22,7 @@ function App() {
         <img src={old_paper} alt="Old Paper" className="old_paper" />
         <img
           src={bhagawadGita}
-          alt="Logo Bhagawad Gita"
+          alt="Bhagawad Gita Logo "
           className="bhagawadGita"
         />
         <p>{quote}</p>
